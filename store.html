@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<link href="./fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet"> 
+<link href="css/reset.css" rel="stylesheet">
+<title>Hello, world!</title>
+<style>
+  
+</style>
+</head>
+<body>
+   
+  <!-- navbar -->
+  <div class="border-bottom">
+    <div class="container ">
+        <!-- info-nav -->
+        <nav class="navbar navbar-expand-lg navbar-light py-2">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ms-auto me-2" >
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">고객센터</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link pe-0" href="login.html">로그인</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid pe-0">
+                        <!-- logo / top-menu -->
+              <a class="navbar-brand fs-4" href="index.html">MOTTNANI</a>
+              <div class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-2">
+                      <a class="nav-link fs-5 setcolor" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                      <a class="nav-link fs-5 maincolor" href="store.html">STORE</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                      <a class="nav-link fs-5 setcolor" href="#">COMMUNITY</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav me-2 ms-auto mb-2 mb-lg-0 text-dark">
+                    <!-- search -->
+                    <li class="nav-item me-2">
+                        <div class="search">
+                            <div class="searchIcon">
+                              <i class="fas fa-search"></i>
+                            </div>
+                            <form class="searchBox">
+                              <input type="text" placeholder="검색">
+                            </form>
+                        </div>
+                        
+                    </li>
+                    <!-- favorite -->
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#">
+                        <i class="far fa-heart fs-5 setcolor"></i>
+                      </a>
+                    </li>
+                    <!-- cart -->
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <i class="fas fa-shopping-cart fs-5 setcolor"></i>
+                      </a>
+                    </li>
+                    <!-- user -->
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <i class="fas fa-user fs-5 setcolor"></i>
+                      </a>
+                    </li>
+                </ul> <!--right-menu-->
+              </div> <!--navmenu-->
+            </div> <!--container-->
+          </nav> <!--menubar-->
+    </div> <!--left-menu + right-menu (navbar)-->
+  </div><!--borderbottom-->
+    <div class="container py-4">
+        <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">HOME</a></li>
+                <li class="breadcrumb-item active" aria-current="page">STORE</li>
+            </ol>
+        </nav>
+        <!-- storeAD -->
+        <div class="row bg-light p-3">
+            
+            
+            <div class="col-12 p-2 position-relative" style="height:160px;">
+                <img src="src/vege.jpg" class="mainImg">
+
+            </div>
+            
+        </div> <!--storeAD-->
+        
+        <div class="row py-3 ">
+            
+                <ul class="col-6 nav navbar-nav me-auto d-flex flex-row" >
+                    <li class="nav-item p-2">
+                      <a class="nav-link" href="#">전체</a>
+                    </li>
+                    <li class="nav-item p-2">
+                      <a class="nav-link pe-0" href="#">티셔츠</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link pe-0" href="#">굿즈</a>
+                    </li>
+                </ul>
+                <ul class="col-1 navbar-nav">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+
+        </div>
+    </div>
+    
+
+<!-- footer -->
+<footer class="pt-4 py-md-4 pt-md-5 bg-dark border-top text-secondary">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md">
+        <img class="mb-2" src="src/" alt="" width="24" height="19">
+        <small class="d-block mb-3 text-muted">&copy; 2017–2021</small>
+      </div>
+      <div class="col-6 col-md">
+        <h6 class="text-muted">INFORMATION</h6>
+        <ul class="list-unstyled text-small">
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">MOTTNANI에 대하여</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">회원가입</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">로그인</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">공지사항</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h6 class="text-muted">SUPPORT</h6>
+        <ul class="list-unstyled text-small">
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">고객지원센터</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">1:1 문의</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">주문/배송 조회</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h6 class="text-muted">SNS</h6>
+        <ul class="list-unstyled text-small">
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#"><i class="fab fa-instagram"></i> <i class="far fa-comments"></i> <i class="fas fa-blog"></i></a></li>
+         
+        </ul>
+      </div>
+    </div>
+    </div>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <small>MOTTNANI 대표 이이이 | 개인정보책임 하하하<br>
+        통신판매업신고번호 2016-서울강남-00478호 | 사업자등록번호 220-88-74818<br>
+        주소 서울특별시 강남구 테헤란로 152 (역삼동) 강남파이낸스센터 32층<br>
+        고객상담 전화문의 080-987-0182 (상담시간 월-금 : AM 09:00 - PM 05:30, 주말/공휴일 휴무)<br>
+        mottnani@naver.com(24시간 접수 가능)
+
+        </small>
+        
+      </div>
+    </div>
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

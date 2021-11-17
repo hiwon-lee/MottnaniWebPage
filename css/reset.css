@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body,td,th {
+    font-size:14px;
+    color:#222;
+}
+body {
+    /* color: aquamarine !important; */
+    background-image:none;
+    margin:0px;
+    padding:0px;
+    font-family: IBMPlexSansKR-Regular;
+}
+a:link {
+    text-decoration:none;
+    color:rgb(150, 150, 150);
+}
+a:visited {
+    text-decoration:none;
+    color:rgb(150, 150, 150);
+}
+a:hover {
+    text-decoration:none;
+    color:rgb(150, 150, 150);
+}
+a:active {
+    text-decoration:none;
+    color:rgb(150, 150, 150);
+}
+a{
+    font-size:12px;
+    color:#333;
+}
+.container {
+    /* margin: 0px 10px; */
+    width:1150px;
+    /* padding:0px 40px !important; */
+    /* padding:0px 0px 0px 0px!important; */
+    max-width: none !important;
+}
+.search{
+    /* margin-top:6px; */
+    border-radius:20px;
+    width:300px;
+    background-color: #f7f7f7;
+}
+.searchBox{
+    display:inline-block !important;
+    background-color: #f7f7f7;
+    /* font-size:18px; */
+    margin-left:0px;
+    border-radius:10px;
+
+}
+.searchBox input{
+    width:94%;
+    border:none;
+    padding:8px 0px;
+    background-color: #f7f7f7;
+    outline: none;
+}
+.searchIcon{
+    display:inline-block;
+    font-size:14px;
+    width:fit-content;
+    padding:0px 10px 0px 20px;
+    text-align:center;
+    line-height: normal;
+    color:rgb(2, 39, 21);
+}
+.imgAd {
+    /* width:1320px; */
+    height:370px;
+}
+.btnGroup {
+    width:160px;
+    border-radius: 20px;
+}
+div.gallery {
+    width:430px;
+}
+.shareTable td div {
+    height:120px;
+    position:relative;
+}
+.mainImg {
+    object-fit: cover;
+    height:100%;
+    width:100%;
+
+}
+.showHashtag{
+    position:absolute;
+    top:20px;
+    left:32px;
+    z-index:9999;
+    /* background-color: rgba(0, 0, 0, 0.637);
+    color:rgb(253, 253, 253) !important; */
+    /* border-radius: 8px; */
+    padding:6px;
+}
+.content > div.row{
+    margin-top:120px;
+}
+.controler{
+    position:sticky;
+    width:100px;
+    height:180px;
+    background-color: rgb(4, 112, 58);
+    right:0px;
+    top:200px;
+}
+.setcolor {
+    color:rgb(77, 77, 77) !important;
+  }
+.setcolor:hover {
+color: #88b14b !important;
+}
+.maincolor{
+    color:#88b14b !important;
+}
